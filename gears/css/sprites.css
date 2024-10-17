@@ -1,0 +1,56 @@
+.sprite {
+    background-repeat: no-repeat;
+}
+
+.scene.recreation .sprite.btn_power {
+    background: url("../../resources/original/sprites/btn_power.png");
+    width: 143px;
+    height: 64px;
+}
+.scene.recreation .sprite.bt_title_d {
+    background: url("../../resources/original/sprites/title.png") 0 0;
+    width: 480px;
+    height: 512px;
+}
+
+/* FLOORS */
+
+.scene.recreation .sprite.floor {
+    width: 480px;
+    height: 128px;
+}
+.scene.recreation .sprite.floor.p1 {background-position: 0 0;}
+.scene.recreation .sprite.floor.p2 {background-position: 0 -128px;}
+.scene.recreation .sprite.floor.p3 {background-position: 0 -256px;}
+.scene.recreation .sprite.floor.p4 {background-position: 0 -384px;}
+.scene.recreation .sprite.bg_001 {background-image: url("../../resources/original/sprites/bg_001\(480x128\).png");}
+.scene.recreation .sprite.bg_002 {background-image: url("../../resources/original/sprites/bg_002\(480x128\).png");}
+.scene.recreation .sprite.bg_003 {background-image: url("../../resources/original/sprites/bg_003\(480x128\).png");}
+.scene.recreation .sprite.bg_004 {background-image: url("../../resources/original/sprites/bg_004\(480x128\).png");}
+.scene.recreation .sprite.bg_005 {background-image: url("../../resources/original/sprites/bg_005\(480x128\).png");}
+.scene.recreation .sprite.bg_006 {
+    background-image: url("../../resources/original/sprites/bg_006\(480x128\).png");
+    background-position: 0 0;
+}
+
+/* BUILDING */
+
+.scene.recreation .sprite.building {
+    background-image: url("../../resources/original/sprites/building.png");
+}
+.scene.recreation .sprite.building.main_bg {
+    background-position: -483px -2px;
+    width: 480px;
+    height: 640px;
+}
+.scene.recreation .sprite.building.bg_lift {
+    background-position: -685px -838px;
+    width: 66px;
+    height: 62px;
+    transform: rotate(-90deg);
+}
+.scene.recreation .sprite.building.e_034 {
+    background-position: -752px -838px;
+    width: 62px;
+    height: 48px;
+}
