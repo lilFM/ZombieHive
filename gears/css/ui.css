@@ -14,6 +14,23 @@ body * {
     box-sizing: border-box;
 }
 
+.ui.surface {
+    width: 480px;
+    height: 640px;
+}
+.ui.surface .sprite.building.bg_lift_top {
+    position: absolute;
+    right: 5px;
+    bottom: 113px;
+}
+.ui.surface .sprite.building.e_034 {
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    animation: building_e-034_surface 3s linear infinite;
+    animation-delay: 4.5s;
+}
+
 .ui.floor {
     width: 480px;
     height: 128px;
@@ -43,9 +60,15 @@ body * {
     position: absolute;
     top: -40px;
     right: 16px;
-    animation: building_e-034 3s linear infinite;
+    animation: building_e-034_floor 3s linear infinite;
 }
 
-@keyframes building_e-034 {
+@keyframes building_e-034_surface {
+    0% {bottom: 47px;}
+    50% {bottom: 105px;}
+    75% {opacity: 1;}
+    100% {bottom: 105px; opacity: 0;}
+}
+@keyframes building_e-034_floor {
     0% {top: 76px;}
 }

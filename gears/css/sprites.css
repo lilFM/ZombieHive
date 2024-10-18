@@ -54,3 +54,8 @@
     width: 62px;
     height: 48px;
 }
+.scene.recreation .sprite.building.bg_lift_top {
+    background-position: -2px -803px;
+    width: 84px;
+    height: 104px;
+}
